@@ -5,7 +5,7 @@ const Language = () => {
   return (
     <Box p="10px" border="1px" borderColor="gray.300">
       {LANGUAGES.map((el) => (
-        <Text display="inline" ml="5px" color="#fff" bgColor="aqua" key={el}>
+        <Text display="inline" ml="5px" color="#fff" bgColor="blackAlpha.400" key={el}>
           {el}
         </Text>
       ))}
